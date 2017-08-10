@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COW - Detalle de empresas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css" />
+    <link rel="stylesheet" href="../assets/css/detalles.css">
+</head>
+<body>
+    <!-- INICIA NAV -->
+    <div class="navbar-fixed">
+        <nav class="container-fluid">
+            <div class="row nav-wrapper negro-fondo pddng-top-nav">
+                <a href="#" class="col l1 brand-logo">
+                    <img src="../assets/img/cow_logo.gif" alt="cow logo" class="logo-nav">
+                </a>
+                <div class="col l4 offset-l7">
+                    <ul>
+                        <a href="#">
+                            <li class="margin-right-li">LISTA DE EMPRESAS</li>
+                        </a>
+                            <li class="margin-right-li">.</li>
+                        <a href="#">
+                            <li>AGREGAR CLIENTES</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- FINALIZA NAV -->
+
+    <!-- Inicia estructura página -->
+    <section class="container-fluid">
+        <div class="row pddng-top-sections">
+            <div class="col l4 offset-l4 center-align">
+                <img src="../assets/img/labo.png" alt="laboratoria logo" class="img-empresas">
+            </div>
+        </div>
+        <div class="row pddng-top-sections">
+            <div class="col l5 right-align">
+                <p> Nombre: Laboratoria </p>
+                <p> Razón social: Laboratoria Coding A.C </p>
+                <p> SKU: 002 </p>
+                <p> Piso: 02 </p>
+                <p> Contacto principal: Gabriela Rocha </p>
+                <p> Equipo: 10 personas <span><a href="#" class="span-a-color">ver equipo completo</a></span></p>
+                <p> Precio de renta: 20,000 pesos. </p>
+                <p> Fecha de inicio de pago: Febrero, 2017. </p>
+                <p> Modalidad de pago: mensual. </p>
+            </div>
+            <div class="col l7">
+                <div class="row">
+                    <div class="col l2 offset-l5">
+                        <img src="../assets/img/user.png" alt="user" class="img-user-team">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l2 offset-l2">
+                        <button data-target="agrega-personal" class=" modal-trigger">
+                          <img src="../assets/img/user.png" alt="user" class="img-user-team">
+                        </button>
+                    </div>
+                    <div class="col l2">
+                        <img src="../assets/img/user.png" alt="user" class="img-user-team">
+                    </div>
+                    <div class="col l2">
+                        <img src="../assets/img/user.png" alt="user" class="img-user-team">
+                    </div>
+                    <div class="col l2">
+                        <img src="../assets/img/user.png" alt="user" class="img-user-team">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l2 offset-l2">
+                        <img src="../assets/img/user.png" alt="user" class="img-user-team">
+                    </div>
+                    <div class="col l2">
+                        <img src="../assets/img/user.png" alt="user" class="img-user-team">
+                    </div>
+                    <div class="col l2">
+                        <img src="../assets/img/user.png" alt="user" class="img-user-team">
+                    </div>
+                    <div class="col l2">
+                        <img src="../assets/img/user.png" alt="user" class="img-user-team">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Finaliza estructura página -->
+
+    <!--  Inicia Modal-->
+   <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
+
+   <!-- Structure -->
+   <div id="agrega-personal" class="modal modal-fixed-footer">
+     <div class="modal-content container">
+       <span class="modal-close btn-flat">X</span>
+       <h5>Registro del Personal</h5>
+       <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="col s12 m3">
+              <div class="row ">
+                <div class="col s4 m9 offset-s4 offset-m1 center-align">
+                  <img src="../assets/img/user.png" alt="user" class="responsive-img img-user-team">
+                  <button class="btn" type="button" name="button">Agregar foto</button>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m9">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="first_name" type="text" class="validate">
+                  <label for="first_name">Nombre</label>
+                </div>
+                <div class="input-field col s12">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Apellido</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email" data-error="wrong" data-success="right">Correo</label>
+            </div>
+            <div class="input-field col s12">
+                <input id="icon_telephone" type="tel" class="validate">
+                <label for="icon_telephone">Teléfono</label>
+            </div>
+          </div>
+          <div class="row">
+          </div>
+          <p>Contacto de Emergencia</p>
+          <div class="row">
+            <div class="input-field col s12 m6 ">
+              <input id="name_emergency_contact" type="text" class="validate">
+              <label for="name_emergency_contact">Nombre</label>
+            </div>
+            <div class="input-field col s12 m6">
+              <input id="telephone_emergency_contact" type="tel" class="validate">
+              <label for="telephone_emergency_contact">Teléfono</label>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn disabled">Agree</a>
+    </div>
+   </div>
+
+
+
+   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+  <script type="text/javascript" src="../assets/js/detalle-empresa.js"></script>
+</body>
+</html>

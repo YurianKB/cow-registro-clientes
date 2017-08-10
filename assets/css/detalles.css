@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    background-image: url(../img/img-inicio/amenidades_bg.png);
+    font-family: "Roboto Mono", monospace;
+    color: white;
+}
+
+/* INICIO Nav - detalles */
+/* desktop */
+.logo-nav{
+    width: 110%;
+}
+
+.negro-fondo{
+    background-color: black;
+}
+
+.pddng-top-nav{
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+nav{
+    height: auto;
+    background-color: black;
+}
+/* FIN Nav - detalles */
+
+
+
+/* INICIO CONTENIDO - detalles */
+.img-empresas{
+    width: 50%;
+}
+
+.span-a-color{
+    color: #FF0000;
+}
+
+.margin-right-li{
+    margin-right: 8%;
+}
+
+.img-user-team{
+    width: 100%;
+}
+
+.pddng-top-sections{
+    padding-top: 4%;
+}
+/* FIN CONTENIDO - detalles */
+
+/* INICIA ESTILOS MODAL*/
+.modal-overlay {
+  background: #F37;
+}
+.modal{
+  width: 70%;
+  background-color: #000;
+}
+.modal .modal-footer {
+    background-color: #000;
+}
+.btn, .btn-large {
+    border: 2px solid #FF0000;
+    color: #FF0000;
+    background-color: #fff;
+    font-weight: bold;
+}
+.btn-flat{
+  color: #FF0000;
+  font-size: 2em;
+}
+
+/* FINALIZA ESTILOS MODAL*/
